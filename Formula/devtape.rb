@@ -5,19 +5,19 @@ class Devtape < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sayyidsh/devtape/releases/download/v0.3.0/devtape-aarch64-apple-darwin.tar.gz"
-      sha256 "b7bd5048157541a8102f0d5b64ce5dd4c8cc889b5ee9fc0afc6a24b1201751c0"
+      url "https://github.com/sayyidsh/devtape/releases/download/v0.4.3/devtape-aarch64-apple-darwin.tar.gz"
+      sha256 "45247871aa9ca5b2316c07c2dbbff47bd6e4e8aae8f2c62ba642309546b19a2c"
     end
     on_intel do
-      url "https://github.com/sayyidsh/devtape/releases/download/v0.3.0/devtape-x86_64-apple-darwin.tar.gz"
-      sha256 "adcda4e27a7237a68c13c824d42c0394cf6aca493cffa4733f727490a3a7370f"
+      url "https://github.com/sayyidsh/devtape/releases/download/v0.4.3/devtape-x86_64-apple-darwin.tar.gz"
+      sha256 "e899e58f0caca98bf74bb1765f50804a0d2a7b93ead14dbcec0b98a826420edf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sayyidsh/devtape/releases/download/v0.3.0/devtape-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0e7b2a087f9bb01a2726cb37c171981da1ee50c4c9ff7a1242255f702ad5eeea"
+      url "https://github.com/sayyidsh/devtape/releases/download/v0.4.3/devtape-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c868e6c8ee881664b06fac76da1fd456161d042cf56d38e1e16dd48b440abaac"
     end
   end
 
